@@ -12,7 +12,7 @@
 		<None Include="_generated/**" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="MudBlazor" Version="*"/>
+		<PackageReference Include="MudBlazor" Version="*" />
 	</ItemGroup>
 
 </Project>

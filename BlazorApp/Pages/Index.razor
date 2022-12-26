@@ -1,0 +1,15 @@
+﻿@page "/"
+
+<h1>Hello, world!</h1>
+<Counter @bind-ValueCounter="@this.ValueIndex" />
+<Counter @bind-ValueCounter="@this.ValueIndex" />
+
+@code {
+
+	private string ValueIndex { get; set; }
+
+	protected override void OnAfterRender(bool firstRender)
+	{
+		
+	}
+}

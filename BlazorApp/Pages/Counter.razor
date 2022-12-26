@@ -1,0 +1,13 @@
+﻿<h3>Counter</h3>
+<MudBlazor.MudTextField @bind-Value="this.ValueCounter" />
+@code {
+
+	[Parameter]
+	public string? ValueCounter
+	{
+		get => this.Get<string>();
+		set => this.Set(value);
+	}
+
+	
+}

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	   <!--<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+    <CompilerGeneratedFilesOutputPath>_generated</CompilerGeneratedFilesOutputPath>-->
+  </PropertyGroup>
+	<ItemGroup>
+		<Compile Remove="_generated/**" />
+		<None Include="_generated/**" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="MudBlazor" Version="*"/>
+	</ItemGroup>
+
+</Project>
